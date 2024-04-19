@@ -1,3 +1,52 @@
+@font-face {
+    font-family: 'coolvetica';
+    src: url('fonts/coolvetica_condensed_rg-webfont.woff2') format('woff2'),
+         url('fonts/coolvetica_condensed_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'griffy';
+    src: url('fonts/griffy-regular-webfont.woff2') format('woff2'),
+         url('fonts/griffy-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(168, 185, 37);
+}
+
+header {
+    background-color: rgb(136, 152, 18);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'griffy';
+    font-size: 40px;
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+    margin-top: 40px
+}
+
+button {
+    font-family: 'coolvetica';
+    font-size: 25px;
+    border: solid rgb(150, 232, 26) 1px;
+    padding: 0px 50px;
+    background-color: rgb(141, 191, 32);
+    color: black;
+}
+
 .cell {
     transition: .02s;
 }
