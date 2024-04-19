@@ -1,0 +1,7 @@
+.cell {
+    transition: .2s;
+}
+.cell:hover {
+    background-color: black;
+    transform: scale(1.2);
+}
